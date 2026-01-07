@@ -1,21 +1,20 @@
 # Temperature Monitor
-Temperature sensor project with LCD 
+Temperature sensor project with LCD  
 
-## Current Version
-work-in-progress project. The current implementation displays temperature readings with a button to toggle between Celsius and Fahrenheit. (will add more features)
+## Explination
+The implementation displays temperature readings with a button to toggle between Celsius and Fahrenheit.
 
 ## Current Features
 - temperature monitoring using Steinhart-Hart equation
 - Button which selects and displays Celsius or Fahrenheit 
 - 16x2 LCD display to show temperature
+- 
+## Hardware
+- Arduino board
+- Thermistor sensor
+- Potentionmeter (10k)
+- 16x2 LCD display
+- Push button
+- Resistors and wiring
 
-## Planned Improvements
-- Add min/max temperature tracking (maybe in a span of time)
-- Use sensor features
-- have more functionality with more hardware components
-
-## Status
--Under Development 
-- Features are being actively added and tested.
-
-With help from elegoo example code with custom additions and code.
+Based on Elegoo example with custom modifications.
